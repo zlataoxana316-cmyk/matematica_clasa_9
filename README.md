@@ -2,7 +2,9 @@
 
 ## Versiunea publică
 
-Folderul `docs/` conține versiunea publică fără server: 15 lecții, 45 de verificări și 10 variante de autoevaluare. Funcționează pe GitHub Pages. Progresul se salvează numai în browserul elevului; conturile și catalogul centralizat sunt omise. Punctajul etapelor scrise și al graficelor se acordă prin autoevaluare după barem, nu de profesor. Workflow-ul `pages.yml` publică această versiune.
+[Deschide site-ul public](https://matematica-clasa-9-oxana.elegantpuffin.chatgpt.site/)
+
+Folderul `docs/` conține versiunea publică fără server: 15 lecții, 45 de verificări și 10 variante de autoevaluare. Funcționează fără server Python pe găzduire statică. Progresul se salvează numai în browserul elevului; conturile și catalogul centralizat sunt omise. Punctajul etapelor scrise și al graficelor se acordă prin autoevaluare după barem, nu de profesor. Versiunea publică este găzduită la linkul de mai sus; GitHub păstrează codul.
 
 Restul proiectului păstrează separat versiunea completă cu server, descrisă mai jos.
 
