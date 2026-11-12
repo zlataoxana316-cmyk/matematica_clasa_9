@@ -1,0 +1,527 @@
+[
+  {
+    "id": "reale-ordine",
+    "topic": 0,
+    "title": "Compararea numerelor reale",
+    "objective": "Compari numere negative, fracții și zecimale.",
+    "rule": "Pe axa numerelor, numărul din dreapta este mai mare. Dintre două numere negative, este mai mare cel cu modulul mai mic.",
+    "example": "Ordonează crescător: −1,2; −5/4; 0,5.",
+    "steps": [
+      "Transformăm fracția: −5/4 = −1,25.",
+      "Comparăm: −1,25 < −1,20 < 0,50.",
+      "Rezultă: −5/4 < −1,2 < 0,5."
+    ],
+    "mistake": "La numere negative, un modul mai mare înseamnă un număr mai mic.",
+    "checks": [
+      {
+        "label": "Care este mai mic: −1,6 sau −3/2? Scrie numărul mai mic.",
+        "answer": "-1.6",
+        "hint": "Transformă −3/2 în zecimal.",
+        "explain": "−3/2 = −1,5, iar −1,6 < −1,5."
+      },
+      {
+        "label": "Care este mai mare: −7/4 sau −1,8? Scrie numărul mai mare.",
+        "answer": "-7/4",
+        "hint": "−7/4 = −1,75.",
+        "explain": "−1,75 se află la dreapta lui −1,8."
+      },
+      {
+        "label": "Cât este distanța dintre −3 și 2 pe axă?",
+        "answer": "5",
+        "hint": "Calculează |2−(−3)|.",
+        "explain": "|2−(−3)| = |5| = 5."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "reale-calcule",
+    "topic": 0,
+    "title": "Fracții și ordinea operațiilor",
+    "objective": "Respecți parantezele și calculezi cu fracții.",
+    "rule": "Întâi parantezele, apoi puterile, înmulțirile și împărțirile, apoi adunările și scăderile. Operațiile de același rang se fac de la stânga la dreapta.",
+    "example": "Calculează 2 − 3·(1/2 − 5/6).",
+    "steps": [
+      "Aducem la numitor comun: 1/2−5/6 = 3/6−5/6 = −1/3.",
+      "Înmulțim: 3·(−1/3) = −1.",
+      "Scădem: 2−(−1) = 3."
+    ],
+    "mistake": "Nu adunăm numitorii fracțiilor și nu omitem semnul minus din fața parantezei.",
+    "checks": [
+      {
+        "label": "Calculează 3/4 − 1/2.",
+        "answer": "1/4",
+        "hint": "Folosește numitorul comun 4.",
+        "explain": "3/4−2/4 = 1/4."
+      },
+      {
+        "label": "Calculează (−2/3) : (4/9).",
+        "answer": "-3/2",
+        "hint": "Înmulțește cu inversa celei de-a doua fracții.",
+        "explain": "(−2/3)·(9/4) = −18/12 = −3/2."
+      },
+      {
+        "label": "Calculează 5 − 2·(3−4).",
+        "answer": "7",
+        "hint": "Paranteza este −1.",
+        "explain": "5−2·(−1) = 5+2 = 7."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "reale-modul",
+    "topic": 0,
+    "title": "Modulul și ecuațiile cu modul",
+    "objective": "Interpretezi modulul ca distanță și lucrezi pe cazuri.",
+    "rule": "|u| = u pentru u ≥ 0 și |u| = −u pentru u < 0. Dacă c > 0, ecuația |u| = c are cazurile u = c și u = −c.",
+    "example": "Rezolvă |2x−3| = 5.",
+    "steps": [
+      "Primul caz: 2x−3 = 5, deci x = 4.",
+      "Al doilea caz: 2x−3 = −5, deci x = −1.",
+      "Verificăm: |8−3|=5 și |−2−3|=5. Ambele soluții sunt corecte."
+    ],
+    "mistake": "Ecuația |u| = c nu are soluții dacă c < 0; pentru c = 0 rămâne doar u = 0.",
+    "checks": [
+      {
+        "label": "Calculează |−8|−|3|.",
+        "answer": "5",
+        "hint": "Modulul unui număr negativ este opusul lui.",
+        "explain": "8−3 = 5."
+      },
+      {
+        "label": "Scrie soluția mai mică a ecuației |x−2| = 3.",
+        "answer": "-1",
+        "hint": "x−2 este 3 sau −3.",
+        "explain": "Soluțiile sunt 5 și −1; cea mai mică este −1."
+      },
+      {
+        "label": "Câte soluții reale are |x+1| = −2?",
+        "answer": "0",
+        "hint": "Un modul este mereu nenegativ.",
+        "explain": "Nu poate fi egal cu −2, deci are 0 soluții."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "radicali-existenta",
+    "topic": 1,
+    "title": "Condiții de existență și modul",
+    "objective": "Stabilești domeniul și simplifici √(u²) corect.",
+    "rule": "În ℝ, √A există dacă A ≥ 0. Pentru orice u real, √(u²) = |u|.",
+    "example": "Simplifică √((x−4)²) pentru x < 4.",
+    "steps": [
+      "Aplicăm identitatea: √((x−4)²) = |x−4|.",
+      "Din x<4 rezultă x−4<0.",
+      "Prin definiția modulului: |x−4| = −(x−4) = 4−x."
+    ],
+    "mistake": "√(u²) nu este întotdeauna u. De exemplu, √((−3)²)=3.",
+    "checks": [
+      {
+        "label": "Pentru √(x−5), care este cel mai mic x admis?",
+        "answer": "5",
+        "hint": "Radicandul x−5 trebuie să fie nenegativ.",
+        "explain": "x−5≥0 ⇔ x≥5. Valoarea minimă admisă este 5."
+      },
+      {
+        "label": "Calculează √((−7)²).",
+        "answer": "7",
+        "hint": "Aplică √(u²)=|u|.",
+        "explain": "√49 = |−7| = 7."
+      },
+      {
+        "label": "Pentru x=1, calculează √((x−4)²).",
+        "answer": "3",
+        "hint": "Înlocuiește x înainte de calcul.",
+        "explain": "√((1−4)²) = √9 = 3."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "radicali-operatii",
+    "topic": 1,
+    "title": "Simplificarea și adunarea radicalilor",
+    "objective": "Extragi factorii pătrați perfecți și reduci radicalii asemenea.",
+    "rule": "Pentru a,b ≥ 0, √(ab) = √a·√b. Se adună coeficienții numai pentru radicali asemenea.",
+    "example": "Simplifică √72 + √8 − √18.",
+    "steps": [
+      "√72 = √(36·2) = 6√2.",
+      "√8 = 2√2, iar √18 = 3√2.",
+      "6√2+2√2−3√2 = 5√2."
+    ],
+    "mistake": "În general √(a+b) ≠ √a+√b. √9+√16=7, dar √25=5.",
+    "checks": [
+      {
+        "label": "În √75 = k√3, cât este k?",
+        "answer": "5",
+        "hint": "75 = 25·3.",
+        "explain": "√75 = 5√3."
+      },
+      {
+        "label": "În 2√12−√27 = k√3, cât este k?",
+        "answer": "1",
+        "hint": "√12=2√3 și √27=3√3.",
+        "explain": "2·2√3−3√3 = √3, deci k=1."
+      },
+      {
+        "label": "Calculează √6·√24.",
+        "answer": "12",
+        "hint": "Înmulțește radicandele.",
+        "explain": "√144 = 12."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "radicali-rationalizare",
+    "topic": 1,
+    "title": "Raționalizarea numitorului",
+    "objective": "Elimini radicalul din numitor prin amplificare.",
+    "rule": "Amplificăm cu radicalul simplu sau cu expresia conjugată. Folosim (u−v)(u+v)=u²−v². Numitorul inițial trebuie să fie nenul.",
+    "example": "Raționalizează 1/(√3−1).",
+    "steps": [
+      "Amplificăm cu √3+1.",
+      "Numitorul devine (√3−1)(√3+1)=3−1=2.",
+      "Rezultatul este (√3+1)/2."
+    ],
+    "mistake": "Se amplifică atât numărătorul, cât și numitorul. Conjugata schimbă semnul dintre termeni.",
+    "checks": [
+      {
+        "label": "În 3/√5 = 3√5/n, cât este n?",
+        "answer": "5",
+        "hint": "Amplifică cu √5.",
+        "explain": "Numitorul √5·√5 este 5."
+      },
+      {
+        "label": "Cât este (√7−2)(√7+2)?",
+        "answer": "3",
+        "hint": "Aplică diferența de pătrate.",
+        "explain": "7−4 = 3."
+      },
+      {
+        "label": "În 1/(√5+1) = (√5−1)/n, cât este n?",
+        "answer": "4",
+        "hint": "Conjugata este √5−1.",
+        "explain": "(√5+1)(√5−1)=5−1=4."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "puteri-intregi",
+    "topic": 2,
+    "title": "Exponent zero și exponenți negativi",
+    "objective": "Calculezi puteri cu exponenți întregi.",
+    "rule": "Pentru a ≠ 0, a⁰=1 și a⁻ⁿ=1/aⁿ. Semnul unei puteri cu bază negativă depinde de paritatea exponentului.",
+    "example": "Calculează (−2)⁻³.",
+    "steps": [
+      "Baza este nenulă, deci puterea există.",
+      "(−2)⁻³ = 1/(−2)³.",
+      "(−2)³ = −8, deci rezultatul este −1/8."
+    ],
+    "mistake": "Exponentul negativ nu face automat rezultatul negativ. De exemplu, 2⁻²=1/4.",
+    "checks": [
+      {
+        "label": "Calculează 7⁰.",
+        "answer": "1",
+        "hint": "Baza este nenulă.",
+        "explain": "Orice bază nenulă la puterea zero este 1."
+      },
+      {
+        "label": "Calculează 3⁻².",
+        "answer": "1/9",
+        "hint": "Ia inversa lui 3².",
+        "explain": "3⁻²=1/9."
+      },
+      {
+        "label": "Calculează (−2)⁻².",
+        "answer": "1/4",
+        "hint": "Exponentul 2 este par.",
+        "explain": "1/(−2)²=1/4."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "puteri-proprietati",
+    "topic": 2,
+    "title": "Proprietățile puterilor",
+    "objective": "Alegi regula potrivită și păstrezi restricțiile.",
+    "rule": "aᵐ·aⁿ=aᵐ⁺ⁿ; aᵐ:aⁿ=aᵐ⁻ⁿ (a≠0); (aᵐ)ⁿ=aᵐⁿ. Pentru exponenți negativi, baza trebuie să fie nenulă.",
+    "example": "Simplifică (a³)²:a⁴, a≠0.",
+    "steps": [
+      "Ridicăm puterea la putere: (a³)²=a⁶.",
+      "Împărțim puteri cu aceeași bază: a⁶:a⁴=a².",
+      "Restricția a≠0 rămâne necesară pentru expresia inițială."
+    ],
+    "mistake": "La înmulțirea puterilor se adună exponenții; la puterea unei puteri se înmulțesc.",
+    "checks": [
+      {
+        "label": "În a³·a⁻⁵=aᵏ (a≠0), cât este k?",
+        "answer": "-2",
+        "hint": "Adună exponenții.",
+        "explain": "3+(−5)=−2."
+      },
+      {
+        "label": "În (b²)⁴=bᵏ, cât este k?",
+        "answer": "8",
+        "hint": "Înmulțește exponenții.",
+        "explain": "2·4=8."
+      },
+      {
+        "label": "În c⁷:c³=cᵏ (c≠0), cât este k?",
+        "answer": "4",
+        "hint": "Scade exponenții.",
+        "explain": "7−3=4."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "puteri-comparare",
+    "topic": 2,
+    "title": "Compararea puterilor și aplicații",
+    "objective": "Aduci puterile la aceeași bază și modelezi creșterea.",
+    "rule": "Pentru a>1, puterea cu exponent mai mare este mai mare. Pentru 0<a<1, ordinea se inversează.",
+    "example": "Compară 2⁸ și 4³.",
+    "steps": [
+      "Scriem 4³=(2²)³=2⁶.",
+      "Baza comună 2 este mai mare decât 1.",
+      "Deoarece 8>6, rezultă 2⁸>4³."
+    ],
+    "mistake": "La o bază cuprinsă între 0 și 1, nu folosim aceeași ordine a exponenților ca la baza >1.",
+    "checks": [
+      {
+        "label": "Cât este raportul 2⁸/4³?",
+        "answer": "4",
+        "hint": "Transformă 4³ în 2⁶.",
+        "explain": "2⁸/2⁶=2²=4."
+      },
+      {
+        "label": "O cantitate de 50 se dublează de 3 ori. Cât devine?",
+        "answer": "400",
+        "hint": "Calculează 50·2³.",
+        "explain": "50·8=400."
+      },
+      {
+        "label": "Care este mai mare: (1/2)² sau (1/2)³? Scrie valoarea mai mare.",
+        "answer": "1/4",
+        "hint": "Pentru 0<a<1, creșterea exponentului micșorează puterea.",
+        "explain": "1/4 > 1/8."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "liniara-valori",
+    "topic": 3,
+    "title": "Valori și apartenență la grafic",
+    "objective": "Calculezi f(x) și verifici un punct.",
+    "rule": "Pentru f(x)=ax+b, a≠0, punctul (x₀;y₀) este pe grafic dacă și numai dacă y₀=f(x₀).",
+    "example": "Pentru f(x)=2x−3, verifică A(2;1).",
+    "steps": [
+      "Înlocuim x=2: f(2)=2·2−3.",
+      "Obținem f(2)=1.",
+      "Ordonata lui A este 1, deci A aparține graficului."
+    ],
+    "mistake": "Prima coordonată este x, a doua este y. Nu le inversa la substituție.",
+    "checks": [
+      {
+        "label": "Pentru f(x)=3x−2, calculează f(0).",
+        "answer": "-2",
+        "hint": "Înlocuiește x cu 0.",
+        "explain": "3·0−2=−2."
+      },
+      {
+        "label": "Pentru f(x)=3x−2, calculează f(−1).",
+        "answer": "-5",
+        "hint": "3·(−1)−2.",
+        "explain": "−3−2=−5."
+      },
+      {
+        "label": "Punctul (2;y) este pe graficul f(x)=3x−2. Cât este y?",
+        "answer": "4",
+        "hint": "y=f(2).",
+        "explain": "3·2−2=4."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "liniara-grafic",
+    "topic": 3,
+    "title": "Grafic, zero și monotonie",
+    "objective": "Explorezi efectul coeficienților a și b.",
+    "rule": "Graficul este o dreaptă. Intersecțiile sunt (0;b) și (−b/a;0). Dacă a>0 funcția este strict crescătoare; dacă a<0 este strict descrescătoare.",
+    "example": "Studiază f(x)=2x−4.",
+    "steps": [
+      "Cu Oy: x=0 ⇒ y=−4, deci (0;−4).",
+      "Cu Ox: 2x−4=0 ⇒ x=2, deci (2;0).",
+      "Dreapta trece prin cele două puncte. Este crescătoare; f(x)<0 pentru x<2 și f(x)>0 pentru x>2."
+    ],
+    "mistake": "La o dreaptă descrescătoare, semnul este pozitiv la stânga zeroului și negativ la dreapta.",
+    "checks": [
+      {
+        "label": "Care este zeroul funcției f(x)=2x−6?",
+        "answer": "3",
+        "hint": "Rezolvă 2x−6=0.",
+        "explain": "2x=6, deci x=3."
+      },
+      {
+        "label": "Pentru f(x)=−3x+6, care este ordonata intersecției cu Oy?",
+        "answer": "6",
+        "hint": "Înlocuiește x cu zero.",
+        "explain": "f(0)=6."
+      },
+      {
+        "label": "Pentru f(x)=−3x+6, cât este f(3)?",
+        "answer": "-3",
+        "hint": "Calculează −3·3+6.",
+        "explain": "−9+6=−3, deci la x=3 funcția este negativă."
+      }
+    ],
+    "tool": "line"
+  },
+  {
+    "id": "liniara-model",
+    "topic": 3,
+    "title": "Determinarea formulei și probleme",
+    "objective": "Găsești coeficienții și construiești un model liniar.",
+    "rule": "Din două puncte cu abscise distincte, a=(y₂−y₁)/(x₂−x₁), apoi b=y₁−ax₁. Verificăm a≠0 dacă cerem o funcție de gradul I.",
+    "example": "O livrare costă 10 lei fix și 4 lei pentru fiecare kilometru.",
+    "steps": [
+      "Notăm distanța cu d≥0.",
+      "Costul este C(d)=4d+10.",
+      "Pentru 5 km: C(5)=4·5+10=30 lei."
+    ],
+    "mistake": "Într-o problemă practică precizează unitățile și domeniul, de exemplu distanță nenegativă.",
+    "checks": [
+      {
+        "label": "O dreaptă trece prin (1;3) și (3;7). Care este a?",
+        "answer": "2",
+        "hint": "(7−3)/(3−1).",
+        "explain": "4/2=2."
+      },
+      {
+        "label": "Dacă a=2 și f(1)=3, cât este b?",
+        "answer": "1",
+        "hint": "2·1+b=3.",
+        "explain": "b=3−2=1."
+      },
+      {
+        "label": "Pentru C(d)=4d+10, ce distanță corespunde costului de 42 lei?",
+        "answer": "8",
+        "hint": "Rezolvă 4d+10=42.",
+        "explain": "4d=32 ⇒ d=8 km."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "patratica-radacini",
+    "topic": 4,
+    "title": "Rădăcini și intersecții",
+    "objective": "Calculezi discriminantul și zerourile.",
+    "rule": "Pentru f(x)=ax²+bx+c, a≠0: Δ=b²−4ac. Dacă Δ≥0, x₁,₂=(−b±√Δ)/(2a). Intersecția cu Oy este (0;c).",
+    "example": "Determină rădăcinile lui x²−5x+6.",
+    "steps": [
+      "a=1, b=−5, c=6; Δ=25−24=1.",
+      "x₁=(5−1)/2=2, x₂=(5+1)/2=3.",
+      "Intersecțiile cu Ox sunt (2;0), (3;0), iar cu Oy este (0;6)."
+    ],
+    "mistake": "Pentru Δ<0 nu există rădăcini reale. Semnul lui b trebuie păstrat la înlocuirea în formulă.",
+    "checks": [
+      {
+        "label": "Calculează Δ pentru x²−6x+8.",
+        "answer": "4",
+        "hint": "b²−4ac = 36−32.",
+        "explain": "Δ=4."
+      },
+      {
+        "label": "Care este rădăcina mai mică a lui x²−6x+8?",
+        "answer": "2",
+        "hint": "(6−√4)/2.",
+        "explain": "(6−2)/2=2."
+      },
+      {
+        "label": "Care este rădăcina mai mare a lui x²−6x+8?",
+        "answer": "4",
+        "hint": "(6+√4)/2.",
+        "explain": "(6+2)/2=4."
+      }
+    ],
+    "tool": null
+  },
+  {
+    "id": "patratica-varf",
+    "topic": 4,
+    "title": "Vârf, simetrie și extrem",
+    "objective": "Explorezi parabola și afli minimul sau maximul.",
+    "rule": "Vârful este V(−b/(2a);−Δ/(4a)). Axa de simetrie este x=−b/(2a). Pentru a>0 avem minim; pentru a<0 avem maxim.",
+    "example": "Studiază f(x)=x²−4x+3.",
+    "steps": [
+      "Completăm pătratul: f(x)=(x−2)²−1.",
+      "Vârful este V(2;−1), iar axa este x=2.",
+      "Minimul este −1 la x=2. Funcția descrește pe (−∞;2] și crește pe [2;+∞)."
+    ],
+    "mistake": "Abscisa vârfului este locul unde se atinge extremul; ordonata este valoarea extremă.",
+    "checks": [
+      {
+        "label": "Pentru f(x)=x²−6x+5, care este abscisa vârfului?",
+        "answer": "3",
+        "hint": "−b/(2a)=6/2.",
+        "explain": "xV=3."
+      },
+      {
+        "label": "Care este valoarea minimă a lui x²−6x+5?",
+        "answer": "-4",
+        "hint": "Calculează f(3) sau completează pătratul.",
+        "explain": "f(3)=9−18+5=−4."
+      },
+      {
+        "label": "Care este valoarea maximă a lui −(x−2)²+7?",
+        "answer": "7",
+        "hint": "Pătratul este nenegativ.",
+        "explain": "−(x−2)²≤0, deci maximul este 7 la x=2."
+      }
+    ],
+    "tool": "parabola"
+  },
+  {
+    "id": "patratica-semn",
+    "topic": 4,
+    "title": "Semnul funcției și aria maximă",
+    "objective": "Combini rădăcinile, semnul și un model geometric.",
+    "rule": "Cu două rădăcini distincte, semnul este cel al lui a în exteriorul rădăcinilor și opus în interior. Pentru aria unui dreptunghi cu perimetru fix folosim o funcție de gradul al II-lea.",
+    "example": "Un dreptunghi are perimetrul 20 m. Găsește aria maximă.",
+    "steps": [
+      "Dacă o latură este x, cealaltă este 10−x, cu 0<x<10.",
+      "Aria A(x)=x(10−x)=−(x−5)²+25.",
+      "Aria maximă este 25 m², la dimensiunile 5 m × 5 m."
+    ],
+    "mistake": "Domeniul geometric contează: laturile trebuie să fie pozitive. Un vârf trebuie interpretat în context.",
+    "checks": [
+      {
+        "label": "Calculează f(3) pentru f(x)=(x−2)(x−4).",
+        "answer": "-1",
+        "hint": "3 este între cele două rădăcini.",
+        "explain": "(3−2)(3−4)=1·(−1)=−1."
+      },
+      {
+        "label": "Un dreptunghi are perimetrul 24 m. Cât este latura pătratului cu același perimetru?",
+        "answer": "6",
+        "hint": "Împarte perimetrul la 4.",
+        "explain": "24/4=6 m."
+      },
+      {
+        "label": "Care este aria maximă a unui dreptunghi cu perimetrul 24 m?",
+        "answer": "36",
+        "hint": "Aria maximă se obține la pătrat.",
+        "explain": "6·6=36 m²."
+      }
+    ],
+    "tool": null
+  }
+]

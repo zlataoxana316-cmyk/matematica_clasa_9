@@ -1,5 +1,11 @@
 # Matematica clasa a IX-a
 
+## Versiunea publică
+
+Folderul `docs/` conține versiunea publică fără server: 15 lecții, 45 de verificări și 10 variante de autoevaluare. Funcționează pe GitHub Pages. Progresul se salvează numai în browserul elevului; conturile și catalogul centralizat sunt omise. Punctajul etapelor scrise și al graficelor se acordă prin autoevaluare după barem, nu de profesor. Workflow-ul `pages.yml` publică această versiune.
+
+Restul proiectului păstrează separat versiunea completă cu server, descrisă mai jos.
+
 Platformă în limba română pentru pregătirea la matematică, cu trei spații separate: **Învață**, **Evaluări**, **Catalog și rapoarte**. Material original pentru antrenament; nu se afirmă conformitatea cu un curriculum oficial verificat.
 
 ## Învață

@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "t1v1",
+    "topic": "Operații cu numere reale",
+    "variant": 1,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Ordonați crescător numerele: −1,5; −7/4; 0; 2/3. Justificați compararea numerelor negative.",
+        "parts": [
+          {
+            "label": "Ordinea și justificarea",
+            "answer": "−7/4 < −1,5 < 0 < 2/3",
+            "points": 4,
+            "solution": "Convertire la zecimale: 2 p; ordonare corectă: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) |-3| + |2|; b) |-3 − 2| − |2|.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "5",
+            "points": 3,
+            "solution": "5",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "3",
+            "points": 3,
+            "solution": "3",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) 1/2 + 0,75; b) (−3/4) : 1,5.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "5/4",
+            "points": 4,
+            "solution": "0,75 = 3/4 (1 p); numitor comun (1 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "-1/2",
+            "points": 4,
+            "solution": "1,5 = 3/2 (1 p); înmulțire cu inversa (1 p); rezultat (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați E = 4 − 2 · [3 − (−1,5 + 1/2)]. Arătați ordinea operațiilor.",
+        "parts": [
+          {
+            "label": "Valoarea parantezei pătrate",
+            "answer": "4",
+            "points": 4,
+            "solution": "−1,5 + 1/2 = −1 (2 p); 3 − (−1) = 4 (2 p).",
+            "manual": false
+          },
+          {
+            "label": "E",
+            "answer": "-4",
+            "points": 6,
+            "solution": "Înmulțirea 2·4 = 8 (3 p); scăderea finală (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Rezolvați ecuația |2x − 1| = 5. Explicați de ce sunt două cazuri.",
+        "parts": [
+          {
+            "label": "Soluția mai mică",
+            "answer": "-2",
+            "points": 5,
+            "solution": "2x − k = −(k+4); izolarea lui x: 3 p; rezultat: 2 p.",
+            "manual": false
+          },
+          {
+            "label": "Soluția mai mare",
+            "answer": "3",
+            "points": 5,
+            "solution": "2x − k = k+4; izolarea lui x: 3 p; rezultat: 2 p.",
+            "manual": false
+          },
+          {
+            "label": "Justificare și verificare",
+            "answer": "Două cazuri ale modulului; ambele soluții verificate.",
+            "points": 4,
+            "solution": "Două cazuri ale modulului; ambele soluții verificate.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un rezervor este plin în proporție de 3/4. Se consumă 10 litri, apoi se adaugă 4 litri. Rezervorul este acum plin în proporție de 3/5. Determinați capacitatea și cantitatea finală.",
+        "parts": [
+          {
+            "label": "Ecuația modelului",
+            "answer": "3C/4 − 10 + 4 = 3C/5",
+            "points": 6,
+            "solution": "Diferența fracțiilor este 3/20; pierderea netă este 6 l.",
+            "manual": true
+          },
+          {
+            "label": "Capacitatea în litri",
+            "answer": "40",
+            "points": 8,
+            "solution": "3C/20 = 6 (4 p); C = 40 (4 p).",
+            "manual": false
+          },
+          {
+            "label": "Cantitatea finală în litri",
+            "answer": "24",
+            "points": 4,
+            "solution": "24",
+            "manual": false
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t1v2",
+    "topic": "Operații cu numere reale",
+    "variant": 2,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Ordonați crescător numerele: −2,5; −11/4; 0; 3/4. Justificați compararea numerelor negative.",
+        "parts": [
+          {
+            "label": "Ordinea și justificarea",
+            "answer": "−11/4 < −2,5 < 0 < 3/4",
+            "points": 4,
+            "solution": "Convertire la zecimale: 2 p; ordonare corectă: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) |-4| + |3|; b) |-4 − 3| − |3|.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "7",
+            "points": 3,
+            "solution": "7",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "4",
+            "points": 3,
+            "solution": "4",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) 2/2 + 0,75; b) (−4/4) : 1,5.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "7/4",
+            "points": 4,
+            "solution": "0,75 = 3/4 (1 p); numitor comun (1 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "-2/3",
+            "points": 4,
+            "solution": "1,5 = 3/2 (1 p); înmulțire cu inversa (1 p); rezultat (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați E = 6 − 2 · [3 − (−1,5 + 1/2)]. Arătați ordinea operațiilor.",
+        "parts": [
+          {
+            "label": "Valoarea parantezei pătrate",
+            "answer": "4",
+            "points": 4,
+            "solution": "−1,5 + 1/2 = −1 (2 p); 3 − (−1) = 4 (2 p).",
+            "manual": false
+          },
+          {
+            "label": "E",
+            "answer": "-2",
+            "points": 6,
+            "solution": "Înmulțirea 2·4 = 8 (3 p); scăderea finală (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Rezolvați ecuația |2x − 2| = 6. Explicați de ce sunt două cazuri.",
+        "parts": [
+          {
+            "label": "Soluția mai mică",
+            "answer": "-2",
+            "points": 5,
+            "solution": "2x − k = −(k+4); izolarea lui x: 3 p; rezultat: 2 p.",
+            "manual": false
+          },
+          {
+            "label": "Soluția mai mare",
+            "answer": "4",
+            "points": 5,
+            "solution": "2x − k = k+4; izolarea lui x: 3 p; rezultat: 2 p.",
+            "manual": false
+          },
+          {
+            "label": "Justificare și verificare",
+            "answer": "Două cazuri ale modulului; ambele soluții verificate.",
+            "points": 4,
+            "solution": "Două cazuri ale modulului; ambele soluții verificate.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un rezervor este plin în proporție de 3/4. Se consumă 20 litri, apoi se adaugă 8 litri. Rezervorul este acum plin în proporție de 3/5. Determinați capacitatea și cantitatea finală.",
+        "parts": [
+          {
+            "label": "Ecuația modelului",
+            "answer": "3C/4 − 20 + 8 = 3C/5",
+            "points": 6,
+            "solution": "Diferența fracțiilor este 3/20; pierderea netă este 12 l.",
+            "manual": true
+          },
+          {
+            "label": "Capacitatea în litri",
+            "answer": "80",
+            "points": 8,
+            "solution": "3C/20 = 12 (4 p); C = 80 (4 p).",
+            "manual": false
+          },
+          {
+            "label": "Cantitatea finală în litri",
+            "answer": "48",
+            "points": 4,
+            "solution": "48",
+            "manual": false
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t2v1",
+    "topic": "Radicali",
+    "variant": 1,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Determinați condiția de existență în ℝ a expresiei √(x − 3).",
+        "parts": [
+          {
+            "label": "Condiția și mulțimea valorilor",
+            "answer": "x ≥ 3",
+            "points": 4,
+            "solution": "Radicand nenegativ: 2 p; x ≥ 3: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Extrageți factorii de sub radical: a) √12; b) √48.",
+        "parts": [
+          {
+            "label": "a) coeficientul lui √3",
+            "answer": "2",
+            "points": 3,
+            "solution": "12 = 4·3 (1 p); 2√3 (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b) coeficientul lui √3",
+            "answer": "4",
+            "points": 3,
+            "solution": "48 = 16·3 (1 p); 4√3 (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "a) Introduceți factorul 2 sub radical în (2)√5. b) Simplificați √((x − 1)²), știind că x < 1.",
+        "parts": [
+          {
+            "label": "a) radicandul",
+            "answer": "20",
+            "points": 4,
+            "solution": "20",
+            "manual": false
+          },
+          {
+            "label": "b) expresia simplificată",
+            "answer": "1 − x",
+            "points": 4,
+            "solution": "√((x−1)²) = |x−1| (2 p); pentru x<1, rezultă 1−x (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Simplificați √48 + √12 − 1√3 și calculați (√12)·√3.",
+        "parts": [
+          {
+            "label": "Coeficientul lui √3 în sumă",
+            "answer": "5",
+            "points": 6,
+            "solution": "Extragerea factorilor (3 p); adunarea coeficienților (3 p).",
+            "manual": false
+          },
+          {
+            "label": "Produsul",
+            "answer": "6",
+            "points": 4,
+            "solution": "6",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Raționalizați: a) 2/√5; b) 1/(√4 − 1).",
+        "parts": [
+          {
+            "label": "a) rezultatul",
+            "answer": "2√5/5",
+            "points": 6,
+            "solution": "Amplificare cu √5 (3 p); simplificare (3 p).",
+            "manual": true
+          },
+          {
+            "label": "b) rezultatul",
+            "answer": "(√4+1)/3",
+            "points": 8,
+            "solution": "Conjugata (3 p); numitor 3 (3 p); rezultat (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru x ≥ 1, considerați E(x) = √((x − 1)²) + (x − 1)/(√4 + 1). a) Simplificați E(x). b) Calculați E(2).",
+        "parts": [
+          {
+            "label": "a) justificarea și forma simplificată",
+            "answer": "(x−1)(1+(√4−1)/3)",
+            "points": 10,
+            "solution": "Modul și utilizarea lui x≥k (4 p); raționalizare (4 p); factorizare (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) valoarea exactă",
+            "answer": "1+(√4−1)/3",
+            "points": 8,
+            "solution": "Substituție (4 p); rezultat exact (4 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t2v2",
+    "topic": "Radicali",
+    "variant": 2,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Determinați condiția de existență în ℝ a expresiei √(x − 4).",
+        "parts": [
+          {
+            "label": "Condiția și mulțimea valorilor",
+            "answer": "x ≥ 4",
+            "points": 4,
+            "solution": "Radicand nenegativ: 2 p; x ≥ 4: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Extrageți factorii de sub radical: a) √27; b) √108.",
+        "parts": [
+          {
+            "label": "a) coeficientul lui √3",
+            "answer": "3",
+            "points": 3,
+            "solution": "27 = 9·3 (1 p); 3√3 (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b) coeficientul lui √3",
+            "answer": "6",
+            "points": 3,
+            "solution": "108 = 36·3 (1 p); 6√3 (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "a) Introduceți factorul 3 sub radical în (3)√5. b) Simplificați √((x − 2)²), știind că x < 2.",
+        "parts": [
+          {
+            "label": "a) radicandul",
+            "answer": "45",
+            "points": 4,
+            "solution": "45",
+            "manual": false
+          },
+          {
+            "label": "b) expresia simplificată",
+            "answer": "2 − x",
+            "points": 4,
+            "solution": "√((x−2)²) = |x−2| (2 p); pentru x<2, rezultă 2−x (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Simplificați √108 + √27 − 2√3 și calculați (√27)·√3.",
+        "parts": [
+          {
+            "label": "Coeficientul lui √3 în sumă",
+            "answer": "7",
+            "points": 6,
+            "solution": "Extragerea factorilor (3 p); adunarea coeficienților (3 p).",
+            "manual": false
+          },
+          {
+            "label": "Produsul",
+            "answer": "9",
+            "points": 4,
+            "solution": "9",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Raționalizați: a) 3/√5; b) 1/(√5 − 1).",
+        "parts": [
+          {
+            "label": "a) rezultatul",
+            "answer": "3√5/5",
+            "points": 6,
+            "solution": "Amplificare cu √5 (3 p); simplificare (3 p).",
+            "manual": true
+          },
+          {
+            "label": "b) rezultatul",
+            "answer": "(√5+1)/4",
+            "points": 8,
+            "solution": "Conjugata (3 p); numitor 4 (3 p); rezultat (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru x ≥ 2, considerați E(x) = √((x − 2)²) + (x − 2)/(√5 + 1). a) Simplificați E(x). b) Calculați E(3).",
+        "parts": [
+          {
+            "label": "a) justificarea și forma simplificată",
+            "answer": "(x−2)(1+(√5−1)/4)",
+            "points": 10,
+            "solution": "Modul și utilizarea lui x≥k (4 p); raționalizare (4 p); factorizare (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) valoarea exactă",
+            "answer": "1+(√5−1)/4",
+            "points": 8,
+            "solution": "Substituție (4 p); rezultat exact (4 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t3v1",
+    "topic": "Puteri",
+    "variant": 1,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Calculați: a) (−2)²; b) 2⁰.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "4",
+            "points": 2,
+            "solution": "4",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "1",
+            "points": 2,
+            "solution": "1",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) 2⁻²; b) (−2)⁻³.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "1/4",
+            "points": 3,
+            "solution": "Inversa puterii pozitive (1 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "-1/8",
+            "points": 3,
+            "solution": "Semnul negativ (1 p); inversa (1 p); rezultat (1 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Simplificați și calculați: a) 2³·2⁻¹; b) (2²)³ : 2⁴.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "4",
+            "points": 4,
+            "solution": "Adunarea exponenților (2 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "4",
+            "points": 4,
+            "solution": "Înmulțirea exponenților (1 p); scăderea (1 p); rezultat (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru a ≠ 0 și b ≠ 0, simplificați (a³b⁻²)² : (a⁴b⁻¹). Indicați exponenții finali și explicați restricțiile.",
+        "parts": [
+          {
+            "label": "Exponentul lui a",
+            "answer": "2",
+            "points": 3,
+            "solution": "2",
+            "manual": false
+          },
+          {
+            "label": "Exponentul lui b",
+            "answer": "-3",
+            "points": 3,
+            "solution": "-3",
+            "manual": false
+          },
+          {
+            "label": "Forma finală și restricțiile",
+            "answer": "a²/b³; a ≠ 0, b ≠ 0 în expresia inițială.",
+            "points": 4,
+            "solution": "Ridicare la putere: 2 p; împărțire și restricții: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Comparați 2⁸ și (4)³. Apoi determinați cel mai mic întreg n pentru care 2ⁿ > 16.",
+        "parts": [
+          {
+            "label": "Comparația justificată",
+            "answer": "2⁸ > 2⁶",
+            "points": 8,
+            "solution": "Scriere în aceeași bază (4 p); compararea exponenților deoarece baza>1 (4 p).",
+            "manual": true
+          },
+          {
+            "label": "n minim",
+            "answer": "5",
+            "points": 6,
+            "solution": "n>4 (3 p); cel mai mic întreg este 5 (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "O cultură conține inițial 200 celule, iar numărul se dublează la fiecare oră. a) Scrieți N(t). b) După câte ore sunt 6400 celule? c) Ce fracție din numărul de la ora 5 reprezintă numărul de la ora 2?",
+        "parts": [
+          {
+            "label": "a) modelul",
+            "answer": "N(t)=200·2^t, t întreg nenegativ",
+            "points": 6,
+            "solution": "Valoare inițială (2 p); factor de dublare (2 p); model (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) numărul de ore",
+            "answer": "5",
+            "points": 6,
+            "solution": "2^t=32 (3 p); t=5 (3 p).",
+            "manual": false
+          },
+          {
+            "label": "c) fracția",
+            "answer": "1/8",
+            "points": 6,
+            "solution": "Raportul 2²/2⁵ (3 p); 2⁻³=1/8 (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t3v2",
+    "topic": "Puteri",
+    "variant": 2,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Calculați: a) (−3)²; b) 3⁰.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "9",
+            "points": 2,
+            "solution": "9",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "1",
+            "points": 2,
+            "solution": "1",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Calculați: a) 3⁻²; b) (−3)⁻³.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "1/9",
+            "points": 3,
+            "solution": "Inversa puterii pozitive (1 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "-1/27",
+            "points": 3,
+            "solution": "Semnul negativ (1 p); inversa (1 p); rezultat (1 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Simplificați și calculați: a) 3³·3⁻¹; b) (3²)³ : 3⁴.",
+        "parts": [
+          {
+            "label": "a)",
+            "answer": "9",
+            "points": 4,
+            "solution": "Adunarea exponenților (2 p); rezultat (2 p).",
+            "manual": false
+          },
+          {
+            "label": "b)",
+            "answer": "9",
+            "points": 4,
+            "solution": "Înmulțirea exponenților (1 p); scăderea (1 p); rezultat (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru a ≠ 0 și b ≠ 0, simplificați (a³b⁻²)² : (a⁴b⁻¹). Indicați exponenții finali și explicați restricțiile.",
+        "parts": [
+          {
+            "label": "Exponentul lui a",
+            "answer": "2",
+            "points": 3,
+            "solution": "2",
+            "manual": false
+          },
+          {
+            "label": "Exponentul lui b",
+            "answer": "-3",
+            "points": 3,
+            "solution": "-3",
+            "manual": false
+          },
+          {
+            "label": "Forma finală și restricțiile",
+            "answer": "a²/b³; a ≠ 0, b ≠ 0 în expresia inițială.",
+            "points": 4,
+            "solution": "Ridicare la putere: 2 p; împărțire și restricții: 2 p.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Comparați 3⁸ și (9)³. Apoi determinați cel mai mic întreg n pentru care 3ⁿ > 81.",
+        "parts": [
+          {
+            "label": "Comparația justificată",
+            "answer": "3⁸ > 3⁶",
+            "points": 8,
+            "solution": "Scriere în aceeași bază (4 p); compararea exponenților deoarece baza>1 (4 p).",
+            "manual": true
+          },
+          {
+            "label": "n minim",
+            "answer": "5",
+            "points": 6,
+            "solution": "n>4 (3 p); cel mai mic întreg este 5 (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "O cultură conține inițial 300 celule, iar numărul se dublează la fiecare oră. a) Scrieți N(t). b) După câte ore sunt 9600 celule? c) Ce fracție din numărul de la ora 5 reprezintă numărul de la ora 2?",
+        "parts": [
+          {
+            "label": "a) modelul",
+            "answer": "N(t)=300·2^t, t întreg nenegativ",
+            "points": 6,
+            "solution": "Valoare inițială (2 p); factor de dublare (2 p); model (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) numărul de ore",
+            "answer": "5",
+            "points": 6,
+            "solution": "2^t=32 (3 p); t=5 (3 p).",
+            "manual": false
+          },
+          {
+            "label": "c) fracția",
+            "answer": "1/8",
+            "points": 6,
+            "solution": "Raportul 2²/2⁵ (3 p); 2⁻³=1/8 (3 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t4v1",
+    "topic": "Funcția de gradul I",
+    "variant": 1,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Fie f(x) = 2x -4. Calculați f(0) și f(2).",
+        "parts": [
+          {
+            "label": "f(0)",
+            "answer": "-4",
+            "points": 2,
+            "solution": "-4",
+            "manual": false
+          },
+          {
+            "label": "f(2)",
+            "answer": "0",
+            "points": 2,
+            "solution": "0",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x) = 2x -4, verificați dacă A(1; -2) și B(2; 1) aparțin graficului.",
+        "parts": [
+          {
+            "label": "A și justificarea",
+            "answer": "Da, f(1)=-2",
+            "points": 3,
+            "solution": "Da, f(1)=-2",
+            "manual": true
+          },
+          {
+            "label": "B și justificarea",
+            "answer": "Nu, f(2)=0 ≠ 1",
+            "points": 3,
+            "solution": "Nu, f(2)=0 ≠ 1",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x) = 2x -4, determinați zeroul și intersecțiile cu axele.",
+        "parts": [
+          {
+            "label": "Zeroul",
+            "answer": "2",
+            "points": 4,
+            "solution": "Ecuația ax+b=0 (2 p); soluție (2 p).",
+            "manual": false
+          },
+          {
+            "label": "Intersecțiile",
+            "answer": "Ox: (2; 0); Oy: (0; -4)",
+            "points": 4,
+            "solution": "Câte 2 p pentru fiecare punct.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Reprezentați grafic f(x) = 2x -4. Precizați monotonia.",
+        "parts": [
+          {
+            "label": "Graficul",
+            "answer": "Dreapta prin intersecțiile cu axele.",
+            "points": 8,
+            "solution": "Axe și scară (2 p); două puncte corecte (4 p); dreapta (2 p).",
+            "manual": true
+          },
+          {
+            "label": "Monotonia",
+            "answer": "Strict crescătoare pe ℝ deoarece a>0.",
+            "points": 2,
+            "solution": "Strict crescătoare pe ℝ deoarece a>0.",
+            "manual": true
+          }
+        ],
+        "graph": {
+          "type": "line",
+          "a": 2,
+          "b": -4
+        }
+      },
+      {
+        "prompt": "Determinați g(x)=mx+n, m≠0, știind că g(1)=3 și g(3)=7. Stabiliți semnul lui g.",
+        "parts": [
+          {
+            "label": "m",
+            "answer": "2",
+            "points": 4,
+            "solution": "2",
+            "manual": false
+          },
+          {
+            "label": "n",
+            "answer": "1",
+            "points": 4,
+            "solution": "1",
+            "manual": false
+          },
+          {
+            "label": "Semnul",
+            "answer": "Zero la -0.5; negativ la stânga, pozitiv la dreapta.",
+            "points": 6,
+            "solution": "Zero (2 p); cele două intervale (4 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un taxi A solicită 9 lei pornirea și 4 lei/km. Taxiul B solicită 15 lei pornirea și 3 lei/km. a) Scrieți costurile. b) La ce distanță costurile sunt egale? c) Pentru ce distanțe este A mai ieftin?",
+        "parts": [
+          {
+            "label": "a) modelele",
+            "answer": "A(d)=9+4d; B(d)=15+3d; d≥0.",
+            "points": 6,
+            "solution": "Câte 3 p pentru un model corect, cu domeniu.",
+            "manual": true
+          },
+          {
+            "label": "b) distanța în km",
+            "answer": "6",
+            "points": 6,
+            "solution": "Egalarea (3 p); rezolvarea (3 p).",
+            "manual": false
+          },
+          {
+            "label": "c) intervalul justificat",
+            "answer": "0 ≤ d < 6 km",
+            "points": 6,
+            "solution": "Inecuație (2 p); rezolvare (2 p); domeniu (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t4v2",
+    "topic": "Funcția de gradul I",
+    "variant": 2,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Fie f(x) = 3x -3. Calculați f(0) și f(2).",
+        "parts": [
+          {
+            "label": "f(0)",
+            "answer": "-3",
+            "points": 2,
+            "solution": "-3",
+            "manual": false
+          },
+          {
+            "label": "f(2)",
+            "answer": "3",
+            "points": 2,
+            "solution": "3",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x) = 3x -3, verificați dacă A(1; 0) și B(2; 4) aparțin graficului.",
+        "parts": [
+          {
+            "label": "A și justificarea",
+            "answer": "Da, f(1)=0",
+            "points": 3,
+            "solution": "Da, f(1)=0",
+            "manual": true
+          },
+          {
+            "label": "B și justificarea",
+            "answer": "Nu, f(2)=3 ≠ 4",
+            "points": 3,
+            "solution": "Nu, f(2)=3 ≠ 4",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x) = 3x -3, determinați zeroul și intersecțiile cu axele.",
+        "parts": [
+          {
+            "label": "Zeroul",
+            "answer": "1",
+            "points": 4,
+            "solution": "Ecuația ax+b=0 (2 p); soluție (2 p).",
+            "manual": false
+          },
+          {
+            "label": "Intersecțiile",
+            "answer": "Ox: (1; 0); Oy: (0; -3)",
+            "points": 4,
+            "solution": "Câte 2 p pentru fiecare punct.",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Reprezentați grafic f(x) = 3x -3. Precizați monotonia.",
+        "parts": [
+          {
+            "label": "Graficul",
+            "answer": "Dreapta prin intersecțiile cu axele.",
+            "points": 8,
+            "solution": "Axe și scară (2 p); două puncte corecte (4 p); dreapta (2 p).",
+            "manual": true
+          },
+          {
+            "label": "Monotonia",
+            "answer": "Strict crescătoare pe ℝ deoarece a>0.",
+            "points": 2,
+            "solution": "Strict crescătoare pe ℝ deoarece a>0.",
+            "manual": true
+          }
+        ],
+        "graph": {
+          "type": "line",
+          "a": 3,
+          "b": -3
+        }
+      },
+      {
+        "prompt": "Determinați g(x)=mx+n, m≠0, știind că g(1)=4 și g(3)=12. Stabiliți semnul lui g.",
+        "parts": [
+          {
+            "label": "m",
+            "answer": "4",
+            "points": 4,
+            "solution": "4",
+            "manual": false
+          },
+          {
+            "label": "n",
+            "answer": "0",
+            "points": 4,
+            "solution": "0",
+            "manual": false
+          },
+          {
+            "label": "Semnul",
+            "answer": "Zero la 0; negativ la stânga, pozitiv la dreapta.",
+            "points": 6,
+            "solution": "Zero (2 p); cele două intervale (4 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un taxi A solicită 10 lei pornirea și 5 lei/km. Taxiul B solicită 16 lei pornirea și 4 lei/km. a) Scrieți costurile. b) La ce distanță costurile sunt egale? c) Pentru ce distanțe este A mai ieftin?",
+        "parts": [
+          {
+            "label": "a) modelele",
+            "answer": "A(d)=10+5d; B(d)=16+4d; d≥0.",
+            "points": 6,
+            "solution": "Câte 3 p pentru un model corect, cu domeniu.",
+            "manual": true
+          },
+          {
+            "label": "b) distanța în km",
+            "answer": "6",
+            "points": 6,
+            "solution": "Egalarea (3 p); rezolvarea (3 p).",
+            "manual": false
+          },
+          {
+            "label": "c) intervalul justificat",
+            "answer": "0 ≤ d < 6 km",
+            "points": 6,
+            "solution": "Inecuație (2 p); rezolvare (2 p); domeniu (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t5v1",
+    "topic": "Funcția de gradul al II-lea",
+    "variant": 1,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Fie f(x)=x²−4x+3. Calculați f(0) și f(2).",
+        "parts": [
+          {
+            "label": "f(0)",
+            "answer": "3",
+            "points": 2,
+            "solution": "3",
+            "manual": false
+          },
+          {
+            "label": "f(2)",
+            "answer": "-1",
+            "points": 2,
+            "solution": "-1",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Determinați rădăcinile lui f(x)=x²−4x+3.",
+        "parts": [
+          {
+            "label": "Rădăcina mai mică",
+            "answer": "1",
+            "points": 3,
+            "solution": "Δ=4 (1 p); formula și rădăcina (2 p).",
+            "manual": false
+          },
+          {
+            "label": "Rădăcina mai mare",
+            "answer": "3",
+            "points": 3,
+            "solution": "Formula (1 p); rădăcina (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x)=x²−4x+3, determinați intersecțiile cu axele și axa de simetrie.",
+        "parts": [
+          {
+            "label": "Intersecțiile",
+            "answer": "Ox: (1;0), (3;0); Oy: (0;3)",
+            "points": 6,
+            "solution": "Câte 2 p pentru fiecare punct.",
+            "manual": true
+          },
+          {
+            "label": "Axa",
+            "answer": "2",
+            "points": 2,
+            "solution": "Axa are ecuația x=2.",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Reprezentați grafic f(x)=x²−4x+3, marcând vârful și cel puțin alte patru puncte.",
+        "parts": [
+          {
+            "label": "Graficul",
+            "answer": "V(2;−1), rădăcinile și două puncte simetrice.",
+            "points": 10,
+            "solution": "Axe și scară (2 p); vârf (2 p); patru puncte (4 p); curbă corectă (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": {
+          "type": "parabola",
+          "a": 1,
+          "b": -4,
+          "c": 3
+        }
+      },
+      {
+        "prompt": "Pentru f(x)=x²−4x+3, stabiliți monotonia, semnul și valoarea minimă.",
+        "parts": [
+          {
+            "label": "Monotonia",
+            "answer": "Descrescătoare pe (−∞;2], crescătoare pe [2;+∞).",
+            "points": 4,
+            "solution": "Câte 2 p pe interval.",
+            "manual": true
+          },
+          {
+            "label": "Semnul",
+            "answer": "Pozitivă pe (−∞;1)∪(3;+∞), negativă pe (1;3), nulă la 1 și 3.",
+            "points": 6,
+            "solution": "Exterior (2 p); interior (2 p); zerouri (2 p).",
+            "manual": true
+          },
+          {
+            "label": "Minimul",
+            "answer": "-1",
+            "points": 4,
+            "solution": "Forma (x−h)²−1 (2 p); minimul −1 la x=h (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un dreptunghi are perimetrul 16 m. Notăm o latură cu x. a) Exprimați aria A(x) și domeniul geometric. b) Determinați aria maximă și dimensiunile corespunzătoare.",
+        "parts": [
+          {
+            "label": "a) modelul",
+            "answer": "A(x)=x(8−x); 0<x<8.",
+            "points": 6,
+            "solution": "Cealaltă latură (2 p); produs (2 p); domeniu (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) aria maximă",
+            "answer": "16",
+            "points": 6,
+            "solution": "Vârf sau completarea pătratului (3 p); valoare (3 p).",
+            "manual": false
+          },
+          {
+            "label": "b) dimensiunile",
+            "answer": "4 m × 4 m",
+            "points": 6,
+            "solution": "Valoarea x (2 p); cealaltă latură (2 p); interpretare ca pătrat (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  },
+  {
+    "id": "t5v2",
+    "topic": "Funcția de gradul al II-lea",
+    "variant": 2,
+    "minutes": 60,
+    "exercises": [
+      {
+        "prompt": "Fie f(x)=x²−6x+8. Calculați f(0) și f(3).",
+        "parts": [
+          {
+            "label": "f(0)",
+            "answer": "8",
+            "points": 2,
+            "solution": "8",
+            "manual": false
+          },
+          {
+            "label": "f(3)",
+            "answer": "-1",
+            "points": 2,
+            "solution": "-1",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Determinați rădăcinile lui f(x)=x²−6x+8.",
+        "parts": [
+          {
+            "label": "Rădăcina mai mică",
+            "answer": "2",
+            "points": 3,
+            "solution": "Δ=4 (1 p); formula și rădăcina (2 p).",
+            "manual": false
+          },
+          {
+            "label": "Rădăcina mai mare",
+            "answer": "4",
+            "points": 3,
+            "solution": "Formula (1 p); rădăcina (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Pentru f(x)=x²−6x+8, determinați intersecțiile cu axele și axa de simetrie.",
+        "parts": [
+          {
+            "label": "Intersecțiile",
+            "answer": "Ox: (2;0), (4;0); Oy: (0;8)",
+            "points": 6,
+            "solution": "Câte 2 p pentru fiecare punct.",
+            "manual": true
+          },
+          {
+            "label": "Axa",
+            "answer": "3",
+            "points": 2,
+            "solution": "Axa are ecuația x=3.",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Reprezentați grafic f(x)=x²−6x+8, marcând vârful și cel puțin alte patru puncte.",
+        "parts": [
+          {
+            "label": "Graficul",
+            "answer": "V(3;−1), rădăcinile și două puncte simetrice.",
+            "points": 10,
+            "solution": "Axe și scară (2 p); vârf (2 p); patru puncte (4 p); curbă corectă (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": {
+          "type": "parabola",
+          "a": 1,
+          "b": -6,
+          "c": 8
+        }
+      },
+      {
+        "prompt": "Pentru f(x)=x²−6x+8, stabiliți monotonia, semnul și valoarea minimă.",
+        "parts": [
+          {
+            "label": "Monotonia",
+            "answer": "Descrescătoare pe (−∞;3], crescătoare pe [3;+∞).",
+            "points": 4,
+            "solution": "Câte 2 p pe interval.",
+            "manual": true
+          },
+          {
+            "label": "Semnul",
+            "answer": "Pozitivă pe (−∞;2)∪(4;+∞), negativă pe (2;4), nulă la 2 și 4.",
+            "points": 6,
+            "solution": "Exterior (2 p); interior (2 p); zerouri (2 p).",
+            "manual": true
+          },
+          {
+            "label": "Minimul",
+            "answer": "-1",
+            "points": 4,
+            "solution": "Forma (x−h)²−1 (2 p); minimul −1 la x=h (2 p).",
+            "manual": false
+          }
+        ],
+        "graph": null
+      },
+      {
+        "prompt": "Un dreptunghi are perimetrul 20 m. Notăm o latură cu x. a) Exprimați aria A(x) și domeniul geometric. b) Determinați aria maximă și dimensiunile corespunzătoare.",
+        "parts": [
+          {
+            "label": "a) modelul",
+            "answer": "A(x)=x(10−x); 0<x<10.",
+            "points": 6,
+            "solution": "Cealaltă latură (2 p); produs (2 p); domeniu (2 p).",
+            "manual": true
+          },
+          {
+            "label": "b) aria maximă",
+            "answer": "25",
+            "points": 6,
+            "solution": "Vârf sau completarea pătratului (3 p); valoare (3 p).",
+            "manual": false
+          },
+          {
+            "label": "b) dimensiunile",
+            "answer": "5 m × 5 m",
+            "points": 6,
+            "solution": "Valoarea x (2 p); cealaltă latură (2 p); interpretare ca pătrat (2 p).",
+            "manual": true
+          }
+        ],
+        "graph": null
+      }
+    ]
+  }
+]
