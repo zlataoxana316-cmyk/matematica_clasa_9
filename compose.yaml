@@ -1,0 +1,14 @@
+services:
+  matematica:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      DATA_DIR: /data
+      PORT: "8000"
+      COOKIE_SECURE: "${COOKIE_SECURE:-0}"
+    volumes:
+      - matematica_data:/data
+    restart: unless-stopped
+volumes:
+  matematica_data:

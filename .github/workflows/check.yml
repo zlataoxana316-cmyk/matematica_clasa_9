@@ -1,0 +1,16 @@
+name: Verificare proiect
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_server.py
+      - run: node --check public/app.js && node --check public/learn.js && node --check public/reports.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fise-matematica-ix
+          path: downloads/

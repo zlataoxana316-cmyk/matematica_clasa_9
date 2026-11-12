@@ -1,0 +1,1 @@
+{"name":"matematica-ix","private":true,"version":"1.0.0","description":"Pregătire matematică IX și catalog individual","scripts":{"dev":"python3 server.py --port 3000","test":"python3 -m unittest -v test_server.py"}}
